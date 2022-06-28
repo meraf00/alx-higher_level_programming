@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for c in range(26):
-    print(chr(c + 97), end="")
+    print("{0}".format(chr(c + 97)), end="")
