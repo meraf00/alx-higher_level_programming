@@ -3,4 +3,5 @@ if __name__ == '__main__':
     import hidden_4
 
     for globalvar in vars(hidden_4).keys():
-        print(globalvar)
+        if not globalvar.startswith("__"):
+            print(globalvar)
